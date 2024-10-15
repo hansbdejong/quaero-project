@@ -1,6 +1,6 @@
 # quaero-project
 
-For the course Internet and Web Systems (CIS 555), we implemented a Google-style distributed cloud-based search engine that interacts with users via a frontend and returns relevant search results for the users’ queries. This search engine is built using a web server (Spark Java clone), key-value store, distributed analytics engine (Spark clone), web crawler, indexer, and a page ranker. All components were built from **scratch** using standard Java.
+For the course Internet and Web Systems (CIS 555), we implemented a Google-style distributed cloud-based search engine that interacts with users via a frontend and returns relevant search results for the users’ queries. This search engine is built using a web server, key-value store, distributed analytics engine, web crawler, indexer, and a page ranker. All components were built from **scratch** using standard Java.
 
 We individually built the web server, key-value store, distributed analytics engine, crawler, and indexer. We then joined forces in a team of four to build our search engine. We deployed our implementations of the web server, key-value store, and distributed analytics engine on multiple Amazon Web Service EC2 instances in order to crawl and index hundreds of thousands of web pages. We then built a ranker in Java that took into account page rank, term frequency inverse document frequency, and phrase match, which we also hosted on EC2 instances. The frontend was built in React.
 
