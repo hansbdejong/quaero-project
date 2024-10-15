@@ -62,5 +62,16 @@ Search results for "weather 94110". As an additional feature, we used a weather 
 </p>
 <br>
 
+### Figure 6:
+Phrase search in action.
+
+<br>
+<p align="center">
+  <img src="https://github.com/hansbdejong/quaero-project/blob/main/quaero-gifs/phrase-search.gif" 
+        width="70%" height="70%">
+</p>
+<br>
+
+
 
 
